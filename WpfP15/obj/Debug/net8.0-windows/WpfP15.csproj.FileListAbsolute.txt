@@ -152,3 +152,4 @@ C:\Users\st310-12\Documents\MenshikovAll\prak15\WpfP15\WpfP15\obj\Debug\net8.0-w
 C:\Users\st310-12\Documents\MenshikovAll\prak15\WpfP15\WpfP15\obj\Debug\net8.0-windows\WpfP15.pdb
 C:\Users\st310-12\Documents\MenshikovAll\prak15\WpfP15\WpfP15\obj\Debug\net8.0-windows\WpfP15.genruntimeconfig.cache
 C:\Users\st310-12\Documents\MenshikovAll\prak15\WpfP15\WpfP15\obj\Debug\net8.0-windows\ref\WpfP15.dll
+C:\Users\st310-12\Documents\MenshikovAll\prak15\WpfP15\WpfP15\obj\Debug\net8.0-windows\WpfP15.sourcelink.json

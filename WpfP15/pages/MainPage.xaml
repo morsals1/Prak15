@@ -2,7 +2,8 @@
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:local="clr-namespace:WpfP15.pages"
       mc:Ignorable="d" 
       Title="MainPage">
@@ -25,17 +26,41 @@
             <Label>Сортировка</Label>
             <ComboBox>
                 <ComboBox.Items>
-                    
+                    <ComboBoxItem Tag="Category">По категории</ComboBoxItem>
+                    <ComboBoxItem Tag="Brand">По бренду</ComboBoxItem>
+                    <ComboBoxItem Tag="Price">По цене</ComboBoxItem>
                 </ComboBox.Items>
             </ComboBox>
             <Label>Фильтры</Label>
             <StackPanel>
-                <Label></Label>
-                <TextBox></TextBox>
-                <Label></Label>
-                <TextBox></TextBox>
+                <Label>Фильтр по цене</Label>
+                <Label>от</Label>
+                <TextBox/>
+                <Label>до</Label>
+                <TextBox/>
             </StackPanel>
+            <Button Margin="5">Сбросить</Button>
         </StackPanel>
+
+        <materialDesign:ColorZone Grid.Row="1" Grid.Column="1" Mode="SecondaryMid">
+            <ListView HorizontalContentAlignment="Stretch">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="{Binding }"/>
+                                <TextBlock Text="{Binding }"/>
+                                
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </materialDesign:ColorZone>
         
     </Grid>
 </Page>
