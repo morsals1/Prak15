@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|solutionrelative:wpfp15\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|c:\\users\\st310-12\\documents\\menshikovall\\prak15\\wpfp15\\wpfp15\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|solutionrelative:wpfp15\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|c:\\users\\st310-12\\documents\\menshikovall\\prak15\\wpfp15\\wpfp15\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|solutionrelative:wpfp15\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|c:\\users\\st310-12\\documents\\menshikovall\\prak15\\wpfp15\\wpfp15\\service\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|solutionrelative:wpfp15\\service\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|c:\\users\\st310-12\\documents\\menshikovall\\prak15\\wpfp15\\wpfp15\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|solutionrelative:wpfp15\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49CB2567-18E2-480B-8838-C0BE28E26A7D}|WpfP15\\WpfP15.csproj|c:\\users\\st310-12\\documents\\menshikovall\\prak15\\wpfp15\\wpfp15\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,34 +30,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\pages\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "WpfP15\\pages\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\pages\\LoginPage.xaml.cs",
-              "RelativeToolTip": "WpfP15\\pages\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:45:15.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\pages\\LoginPage.xaml",
               "RelativeDocumentMoniker": "WpfP15\\pages\\LoginPage.xaml",
               "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\pages\\LoginPage.xaml",
               "RelativeToolTip": "WpfP15\\pages\\LoginPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-05T08:21:20.276Z",
+              "WhenOpened": "2025-12-18T04:28:34.808Z",
               "EditorCaption": ""
             },
             {
@@ -70,15 +58,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "WpfP15\\pages\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\pages\\MainPage.xaml.cs",
               "RelativeToolTip": "WpfP15\\pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T03:33:06.556Z"
+              "WhenOpened": "2025-12-09T03:33:06.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBService.cs",
+              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\Service\\DBService.cs",
+              "RelativeDocumentMoniker": "WpfP15\\Service\\DBService.cs",
+              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\Service\\DBService.cs",
+              "RelativeToolTip": "WpfP15\\Service\\DBService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T04:32:06.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfP15\\pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak15\\WpfP15\\WpfP15\\pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "WpfP15\\pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:45:15.452Z",
+              "EditorCaption": ""
             }
           ]
         }

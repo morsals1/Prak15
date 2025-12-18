@@ -20,7 +20,7 @@ namespace WpfP15.pages
     /// </summary>
     public partial class LoginPage : Page
     {
-        bool isManager = false;
+        bool IsManager = false;
         public LoginPage()
         {
             InitializeComponent();
@@ -28,13 +28,13 @@ namespace WpfP15.pages
 
         private void ManagerButton_Click(object sender, RoutedEventArgs e)
         {
-            isManager = true;
-            NavigationService.Navigate(new MainPage());
+            IsManager = true;
+            NavigationService.Navigate(new MainPage(IsManager));
         }
 
         private void VisitorButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new MainPage());
+            NavigationService.Navigate(new MainPage(IsManager));
         }
     }
 }

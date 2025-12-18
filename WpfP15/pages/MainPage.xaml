@@ -6,6 +6,7 @@
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:local="clr-namespace:WpfP15.pages"
       mc:Ignorable="d" 
+      IsVisibleChanged="Page_IsVisibleChanged"
       Title="MainPage">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -22,13 +23,14 @@
             <Label>Поиск</Label>
             <TextBox/>
         </StackPanel>
+        
         <StackPanel Grid.Row="1" Grid.Column="0">
             <Label>Сортировка</Label>
             <ComboBox>
                 <ComboBox.Items>
-                    <ComboBoxItem Tag="Category">По категории</ComboBoxItem>
-                    <ComboBoxItem Tag="Brand">По бренду</ComboBoxItem>
-                    <ComboBoxItem Tag="Price">По цене</ComboBoxItem>
+                    <ComboBoxItem Tag="Name">Наименование</ComboBoxItem>
+                    <ComboBoxItem Tag="Price">Цена</ComboBoxItem>
+                    <ComboBoxItem Tag="Quantity">Количество</ComboBoxItem>
                 </ComboBox.Items>
             </ComboBox>
             <Label>Фильтры</Label>
@@ -41,9 +43,9 @@
             </StackPanel>
             <Button Margin="5">Сбросить</Button>
         </StackPanel>
-
+        
         <materialDesign:ColorZone Grid.Row="1" Grid.Column="1" Mode="SecondaryMid">
-            <ListView HorizontalContentAlignment="Stretch">
+            <ListView ItemsSource="{Binding products}" Name="ProductsList" HorizontalContentAlignment="Stretch">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Grid>
@@ -52,15 +54,32 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="{Binding }"/>
-                                <TextBlock Text="{Binding }"/>
-                                
+                                <TextBlock Text="{Binding Name}"/>
+                                <TextBlock Text="{Binding Description}"/>
+                                <TextBlock>
+                                    <Run Text="Цена" />
+                                    <Run Text="{Binding Price}"/>
+                                </TextBlock>
+                                <TextBlock>
+                                    <Run Text="Количество"/>
+                                    <Run Text="{Binding Stock}"/>
+                                </TextBlock>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <TextBlock HorizontalAlignment="Right">
+                                    <Run Text="Рейтинг"/>
+                                    <Run Text="{Binding Rating}"/>
+                                </TextBlock>
                             </StackPanel>
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </materialDesign:ColorZone>
-        
+
+        <WrapPanel Grid.Row="2" Grid.Column="2">
+            <TextBlock/>
+            <TextBlock/>
+        </WrapPanel>
     </Grid>
 </Page>
